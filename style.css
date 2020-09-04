@@ -217,6 +217,7 @@ a {
     width: 1225px;
 }
 .recommend .bd ul li {
+    position: relative;
     float: left;
     width: 228px;
     height: 270px;
@@ -224,8 +225,13 @@ a {
     margin-right: 15px;
     margin-bottom: 15px;
 }
-.recommend .bd ul li img {
+.recommend .bd ul li > img {
     width: 100%;
+}
+.recommend .bd ul li em {
+    position: absolute;
+    top:4px;
+    right: -4px;
 }
 .recommend .bd ul li h4 {
     margin: 20px 20px 20px 25px;
